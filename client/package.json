@@ -1,0 +1,49 @@
+{
+  "name": "generic_react_redux",
+  "version": "0.1.0",
+  "description": "Generic react + redux file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dev_server.js",
+    "bundle": "node_modules/.bin/webpack --config webpack.deploy.config.js --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndGasper/create-react-app.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Andres Gasper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndGasper/create-react-app/issues"
+  },
+  "homepage": "https://github.com/AndGasper/create-react-app#readme",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-form": "^7.1.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "react-hot-loader": "^3.1.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
